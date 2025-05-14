@@ -42,7 +42,8 @@
                         <li><a href="#">Normal Apps</a></li>
                     </ul>
                 </div>
-            </div>
+            </div>  
+            
             <div class="col-lg-3">
                 <div class="footer-widget">
                     <h4>About Our Company</h4>

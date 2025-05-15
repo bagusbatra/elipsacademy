@@ -4,9 +4,9 @@
             <div class="col-lg-3">
                 <div class="footer-widget">
                     <h4>Contact Us</h4>
-                    <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-                    <p><a href="#">010-020-0340</a></p>
-                    <p><a href="#">info@company.co</a></p>
+                    <p>Surabaya, Sidoarjo</p>
+                    <p><a href="#">Soon</a></p>
+                    <p><a href="#">Soon</a></p>
                 </div>
             </div>
             <div class="col-lg-3">
@@ -50,8 +50,7 @@
                     <div class="logo">
                         <img src="assets/images/white-logo.png" alt="">
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore.</p>
+                    <p>Soon.</p>
                 </div>
             </div>
             <div class="col-lg-12">

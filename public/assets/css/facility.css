@@ -1,0 +1,419 @@
+/* 
+---------------------------------------------
+The Clients Facility
+---------------------------------------------
+*/
+
+.the-clients {
+    margin-top: 130px;
+}
+
+.the-clients .section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.the-clients .section-heading p {
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: var(--secondary);
+}
+
+.the-clients .naccs {
+    position: relative;
+}
+
+.menu .thumb h4 {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: var(--secondary);
+}
+
+.menu .thumb span.date {
+    display: inline-block;
+    margin-top: 0px;
+    color: var(--secondary);
+}
+
+.menu .thumb span.category,
+.menu .thumb span.rating {
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.menu .thumb i {
+    color: var(--secondary);
+}
+
+.the-clients .naccs .menu div {
+    color: var(--bg-light);
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: left;
+    padding: 0px 15px;
+    cursor: pointer;
+    position: relative;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.the-clients .naccs .menu div.active h4,
+.the-clients .naccs .menu div.active i,
+.the-clients .naccs .menu div.active span.rating,
+.the-clients .naccs .menu div.active .thumb {
+    color: var(--primary);
+}
+
+.the-clients ul.nacc {
+    position: relative;
+    min-height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.the-clients ul.nacc li {
+    opacity: 0;
+    transform: translateX(-50px);
+    position: absolute;
+    list-style: none;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.the-clients ul.nacc li.active {
+    transition-delay: 0.3s;
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.the-clients ul.nacc li {
+    width: 100%;
+}
+
+.the-clients .nacc .thumb .client-content img {
+    width: 76px;
+    height: 62px;
+}
+
+.the-clients .nacc .thumb .client-content {
+    padding: 60px 30px;
+    background-image: url(../images/client-bg.png);
+    background-size: cover;
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.the-clients .nacc .thumb .client-content p {
+    color: var(--bg-light);
+    font-weight: 500;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.the-clients .nacc .thumb .down-content {
+    margin-top: 30px;
+}
+
+.the-clients .nacc .thumb .down-content img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: inline;
+}
+
+.the-clients .nacc .thumb .down-content .right-content {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.the-clients .nacc .thumb .down-content .right-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.the-clients .nacc .thumb .down-content .right-content span {
+    color: var(--secondary);
+}
+
+/* 
+---------------------------------------------
+The Clients
+---------------------------------------------
+*/
+
+.pricing-tables {
+    padding-top: 130px;
+}
+
+.pricing-tables .section-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.pricing-tables .section-heading p {
+    margin-top: 10px;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: var(--secondary);
+}
+
+.pricing-item-regular {
+    margin-top: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 50px;
+    padding: 90px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.pricing-item-regular:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/regular-table-top.png);
+    z-index: 0;
+    content: "";
+    width: 274px;
+    height: 221px;
+}
+
+.pricing-item-regular:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(../images/regular-table-bottom.png);
+    z-index: 0;
+    content: "";
+    width: 370px;
+    height: 171px;
+}
+
+.pricing-item-regular span.price {
+    font-size: 40px;
+    color: var(--bg-light);
+    position: absolute;
+    font-weight: 700;
+    z-index: 1;
+    left: 30px;
+    top: 30px;
+}
+
+.pricing-item-regular h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.pricing-item-regular .icon img {
+    width: 120px;
+    height: 106px;
+    margin-bottom: 30px;
+}
+
+.pricing-item-regular ul li {
+    color: var(--primary);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.pricing-item-regular ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.pricing-item-regular ul li.non-function {
+    color: var(--accent);
+    text-decoration: line-through;
+}
+
+.pricing-item-regular .border-button {
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+}
+
+.pricing-item-pro {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 50px;
+    padding: 120px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.pricing-item-pro:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/pro-table-top.png);
+    z-index: 0;
+    content: "";
+    width: 281px;
+    height: 251px;
+}
+
+.pricing-item-pro:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/pro-table-bottom.png);
+    z-index: 0;
+    content: "";
+    width: 100%;
+    height: 201px;
+}
+
+.pricing-item-pro span.price {
+    font-size: 40px;
+    color: var(--bg-light);
+    position: absolute;
+    font-weight: 700;
+    z-index: 1;
+    left: 30px;
+    top: 30px;
+}
+
+.pricing-item-pro h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.pricing-item-pro .icon img {
+    width: 120px;
+    height: 106px;
+    margin-bottom: 30px;
+}
+
+.pricing-item-pro ul li {
+    color: var(--primary);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.pricing-item-pro ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.pricing-item-pro ul li.non-function {
+    color: var(--accent);
+    text-decoration: line-through;
+}
+
+.pricing-item-pro .border-button {
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+}
+
+.facility .service-item h4{
+    font-size:20px;
+}
+
+/* Wrapper utama */
+.logo-slider {
+    width: 100%;
+    background: #f8f9fa;
+    padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Track utama yang bergerak */
+.logo-track {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Jarak antar logo */
+    animation: scrollLoop 20s linear infinite;
+    width: max-content; /* Membiarkan track memanjang */
+}
+
+/* Logo individual */
+.logo-track img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+/* Efek hover */
+.logo-track img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/* Animasi seamless */
+@keyframes scrollLoop {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Duplikasi otomatis dengan pseudo-element */
+.logo-track::after {
+    content: "";
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo-track::after {
+    content: "";
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    left: 100%;
+    white-space: nowrap;
+}
+
+.slider-container {
+    width: 100%;
+    max-width: 800px; /* Sesuaikan dengan kebutuhan */
+    overflow: hidden; /* Hanya menampilkan 4 gambar */
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+    width: calc(100% * (8 / 4)); /* Menyesuaikan jumlah gambar */
+}
+
+.slider-track img {
+    width: 25%; /* 4 gambar dalam satu tampilan */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Tombol navigasi */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev-btn { left: 10px; }
+.next-btn { right: 10px; }

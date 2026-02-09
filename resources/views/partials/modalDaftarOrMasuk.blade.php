@@ -1,7 +1,7 @@
 {{-- MODAL --}}
-<div id="modal" class="popupContainer" style="display:none;">
+<div id="login" class="popupContainer" style="display:none;">
     <div class="popupHeader">
-        <span class="header_title">Login</span>
+        <span class="header_title">Masuk</span>
         <span class="modal_close"><i class="fa fa-times"></i></span>
     </div>
 
@@ -10,14 +10,12 @@
         <div class="social_login">
             <div class="">
                 <a href="#" class="social_box fb">
-                    <span class="icon"><i class="fab fa-facebook"></i></span>
-                    <span class="icon_title">Connect with Facebook</span>
+                    <span class="icon_title"><i class="fab fa-facebook"></i>Connect with Facebook</span>
 
                 </a>
 
                 <a href="#" class="social_box google">
-                    <span class="icon"><i class="fab fa-google-plus"></i></span>
-                    <span class="icon_title">Connect with Google</span>
+                    <span class="icon_title"><i class="fab fa-google-plus"></i>Connect with Google</span>
                 </a>
             </div>
 
@@ -35,11 +33,11 @@
         <div class="user_login">
             <form>
                 <label>Email / Username</label>
-                <input type="text" />
+                <input type="email" placeholder="Masukkan Email/Username" required>
                 <br />
 
                 <label>Password</label>
-                <input type="password" />
+                <input type="password" placeholder="Masukkan Password" required>
                 <br />
 
                 <div class="checkbox">
@@ -61,15 +59,15 @@
         <div class="user_register">
             <form>
                 <label>Full Name</label>
-                <input type="text" />
+                <input type="text" placeholder="Masukkan Nama Lengkap" required>
                 <br />
 
                 <label>Email Address</label>
-                <input type="email" />
+                <input type="email" placeholder="Masukkan Email" required>
                 <br />
 
                 <label>Password</label>
-                <input type="password" />
+                <input type="password" placeholder="Masukkan Password" required>
                 <br />
 
                 <div class="checkbox">

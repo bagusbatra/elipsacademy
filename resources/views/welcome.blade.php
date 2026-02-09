@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="main-banner wow fadeIn" id="home" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -23,7 +23,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="white-button first-button scroll-to-section">
-                                            <a href="#contact"><i class="bi bi-search me-1"></i> Lihat Program</a>
+                                            <a href="{{ route('program') }}"><i class="bi bi-search me-1"></i> Lihat Program</a>
                                         </div>
                                         <div class="white-button scroll-to-section">
                                             <a href="#contact"><i class="bi bi-calendar3 me-2"></i>Daftar Kelas</a>
@@ -34,7 +34,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                                <img src="assets/images/slider-dec.png" alt="">
+                                <img src="{{ asset('assets/images/slider-dec.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                         <h4>Belajar <em>Lebih Mudah</em> dengan Program Terarah</h4>
-                        <img src="assets/images/heading-line-dec.png" alt="">
+                        <img src="{{ asset('assets/images/heading-line-dec.png') }}" alt="">
                         <p>Teknologi terus berkembang, apakah Anda siap mengikuti? Elips Academy menawarkan Program 1 Tahun
                             Komputer dan Desain untuk membekali Anda dengan skill yang dibutuhkan industri modern. Belajar
                             berbasis
@@ -72,12 +72,12 @@
                     <div class="swi">
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="assets/images/10.png" alt="Gambar 1"></div>
-                                <div class="swiper-slide"><img src="assets/images/11.png" alt="Gambar 2"></div>
-                                <div class="swiper-slide"><img src="assets/images/12.png" alt="Gambar 3"></div>
-                                <div class="swiper-slide"><img src="assets/images/13.png" alt="Gambar 4"></div>
-                                <div class="swiper-slide"><img src="assets/images/12.png" alt="Gambar 5"></div>
-                                <div class="swiper-slide"><img src="assets/images/11.png" alt="Gambar 6"></div>
+                                <div class="swiper-slide"><img src="{{ asset('assets/images/10.png') }}" alt="Gambar 1"></div>
+                                <div class="swiper-slide"><img src="{{ asset('assets/images/10.png') }}" alt="Gambar 2"></div>
+                                <div class="swiper-slide"><img src="{{ asset('assets/images/10.png') }}" alt="Gambar 3"></div>
+                                <div class="swiper-slide"><img src="{{ asset('assets/images/10.png') }}" alt="Gambar 4"></div>
+                                <div class="swiper-slide"><img src="{{ asset('assets/images/10.png') }}" alt="Gambar 5"></div>
+                                <div class="swiper-slide"><img src="{{ asset('assets/images/10.png') }}" alt="Gambar 6"></div>
                             </div>
                             <!-- Tombol Navigasi -->
                             <div class="swiper-button-next"></div>
@@ -90,41 +90,41 @@
                 <div class="col-lg-4 cats">
                     <div class="row wow fadeInDown cat">
                         <div class="category">
-                            <h5 class="text-light pt-3 pb-4 ps-2">MATERI PEMBELAJARAN</h5>
+                            <h5 class="text-light pt-3 pb-4 ps-2">PEMBELAJARAN UNGGULAN</h5>
                             <div class="row d-flex justify-content-around pt-2 pb-2">
                                 <div class="col-2 col-lg-4 text-center pb-3">
                                     <a href="#">
-                                        <img src="assets/images/43.png" class="img mb-2" alt="">
+                                        <img src="{{ asset('assets/images/43.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Komputer</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center  pb-3">
                                     <a href="#">
-                                        <img src="assets/images/39.png" class="img mb-2" alt="">
+                                        <img src="{{ asset('assets/images/39.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Office</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
                                     <a href="#">
-                                        <img src="assets/images/41.png" class="img mb-2" alt="">
+                                        <img src="{{ asset('assets/images/41.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Desain</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
                                     <a href="#">
-                                        <img src="assets/images/40.png" class="img mb-2" alt="">
+                                        <img src="{{ asset('assets/images/40.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Digital Marketing</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
                                     <a href="#">
-                                        <img src="assets/images/40.png" class="img mb-2" alt="">
-                                        <p class="text-light fw-normal lh-base">Bahasa Inggris</p>
+                                        <img src="{{ asset('assets/images/44.png') }}" class="img mb-2" alt="">
+                                        <p class="text-light fw-normal lh-base">AutoCAD</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#">
-                                        <img src="assets/images/46.png" class="img mb-2" alt="">
+                                    <a href="{{ route('program') }}">
+                                        <img src="{{ asset('assets/images/46.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Lihat Detail</p>
                                     </a>
                                 </div>
@@ -288,7 +288,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="right-image">
-                        <img src="assets/images/about-right-dec.png" alt="">
+                        <img src="{{ asset('assets/images/about-right-dec.png') }}" alt="">
                     </div>
                 </div>
             </div>

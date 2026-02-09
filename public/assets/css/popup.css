@@ -1,0 +1,255 @@
+/*
+---------------------------------------------
+PopUp
+---------------------------------------------
+*/
+
+#lean_overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: none;
+}
+
+.popupContainer {
+    position: absolute;
+    width: 330px;
+    height: auto;
+    left: 45%;
+    top: 60px;
+    background: var(--bg-light);
+}
+
+.btn {
+    padding: 10px 20px;
+    background: var(--accent);
+    color: var(--bg-light);
+    transition: all 0.3s;
+}
+
+.btn_red {
+    background: var(--primary);
+    color: var(--bg-light);
+}
+
+.btn:hover {
+    background: var(--primary);
+    color: var(--bg-light);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.btn_red:hover {
+    color: var(--secondary);
+    background: var(--bg-light);
+}
+
+a.btn {
+    color: var(--bg-light);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.btn_red {
+    color: var(--bg-light);
+}
+
+.one_half {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+.one_half.last {
+    width: 45%;
+    margin-left: 5%;
+}
+/* Popup Styles*/
+
+.popupHeader {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.popupHeader {
+    background: var(--accent);
+    position: relative;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--neutral);
+    font-weight: bold;
+}
+
+.popupHeader .modal_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 15px;
+    background: var(--primary);
+    cursor: pointer;
+    color: var(--bg-light);
+    font-size: 16px;
+}
+
+.popupBody {
+    padding: 20px;
+}
+
+.social_login .social_box {
+    display: block;
+    clear: both;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    background: var(--bg-light);
+    overflow: hidden;
+}
+
+.social_login i {
+    display: inline-block;
+
+    padding: 5px 10px;
+    margin-right: 10px;
+    /* float: left; */
+    color: var(--primary);
+    font-size: 16px;
+    text-align: center;
+}
+
+.social_login .fb .icon {
+    background: var(--primary);
+}
+
+.social_login .google .icon {
+    background: var(--primary);
+}
+
+.social_login .icon_title {
+    display: block;
+    padding: 5px 0;
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--accent);
+}
+
+.social_login .icon_title:hover {
+    color: var(--primary);
+}
+
+.centeredText {
+    color: var(--primary);
+    text-align: center;
+    margin: 20px 0;
+    clear: both;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.user_login label {
+    color: var(--bg-light);
+}
+
+.action_btns {
+    clear: both;
+    overflow: hidden;
+}
+
+.action_btns a {
+    display: block;
+}
+/* User Login Form */
+
+.user_login {
+    display: none;
+}
+
+.user_login label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary);
+}
+
+.user_login input[type="text"],
+.user_login input[type="email"],
+.user_login input[type="password"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    color: var(--secondary);
+}
+
+.user_login input[type="checkbox"] {
+    float: left;
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+}
+
+.user_login input[type="checkbox"] + label {
+    float: left;
+}
+
+.user_login .checkbox {
+    margin-bottom: 10px;
+    clear: both;
+    overflow: hidden;
+}
+
+.forgot_password {
+    display: block;
+    margin: 20px 0 10px;
+    clear: both;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--primary);
+    transition: all 0.3s;
+}
+/* User Register Form */
+
+.user_register {
+    display: none;
+}
+
+.user_register label {
+    color: var(--primary);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user_register input[type="text"],
+.user_register input[type="email"],
+.user_register input[type="password"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    color: var(--secondary);
+}
+
+.user_register input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin-right: 8px;
+}
+
+.user_register input[type="checkbox"] + label {
+    float: left;
+    color: var(--primary);
+}
+
+.user_register .checkbox {
+    margin-bottom: 10px;
+    clear: both;
+    overflow: hidden;
+}

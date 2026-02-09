@@ -1,5 +1,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{-- <meta name="viewport" content="width=1200"> --}}
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,6 +29,6 @@ https://templatemo.com/tm-570-chain-app-dev
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/animated.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/owl.css') }}">

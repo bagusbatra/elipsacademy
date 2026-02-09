@@ -1,0 +1,339 @@
+/* 
+---------------------------------------------
+Services Style
+--------------------------------------------- 
+*/
+
+#promo-sticker {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; /* Awalnya disembunyikan */
+    transition: opacity 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+#close-sticker {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.promo-button {
+    display: block;
+    margin-top: 5px;
+    background: white;
+    color: #ff5722;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.promo-button:hover {
+    background: #ffccbc;
+}
+
+.elementor-icon-list-icon svg{
+    width: 38px;
+    fill: var(--primary);
+}
+
+.services {
+    padding-top: 100px;
+    position: relative;
+}
+
+.services .section-heading p {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: var(--secondary);
+}
+
+.services .container-fluid {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.services:after {
+    content: "";
+    background-image: url(../images/services-left-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 200px;
+    width: 261px;
+    height: 368px;
+    z-index: 0;
+}
+
+.services:before {
+    content: "";
+    background-image: url(../images/services-right-dec.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1136px;
+    height: 244px;
+    z-index: 0;
+}
+
+.services .section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services .section-heading .line-dec {
+    margin: 0 auto;
+}
+
+.service-item {
+    position: relative;
+    z-index: 1;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: var(--bg-light);
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    transition: all 0.3s;
+}
+
+.service-item .icon {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+}
+
+.service-item h4 {
+    transition: all 0.3s;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    transition: all 0.3s;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: var(--secondary);
+}
+
+.service-item:hover h4,
+.service-item:hover p,
+.service-item:hover .text-button a {
+    color: var(--bg-light);
+}
+
+/* DARI SAYA */
+.services .container .swiper {
+    width: 100%;
+    height: 350px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+.services .container .swiper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.services .container .category img{
+    width: 65px;
+    height: 65px;
+}
+.services .container .swiper .swiper-button-next,
+.swiper-button-prev {
+    color: var(--primary);
+}
+.swiper-pagination-bullet-active {
+    opacity: var(--neutral, 1);
+    background: var(--primary, var(--swiper-theme-color));
+    width: 10px;
+    height: 10px;
+}
+.right-swiper {
+    background-color: var(--primary);
+    border-radius: 20px;
+    height: 88%;
+    width: 100%;
+}
+
+.first-service .icon {
+    background-image: url(../images/23.png);
+    background-size: cover;
+}
+
+.first-service:hover .icon {
+    background-image: url(../images/24.png);
+}
+
+.second-service .icon {
+    background-image: url(../images/25.png);
+    background-size: cover;
+}
+
+.second-service:hover .icon {
+    background-image: url(../images/26.png);
+}
+
+.third-service .icon {
+    background-image: url(../images/27.png);
+    background-size: cover;
+}
+
+.third-service:hover .icon {
+    background-image: url(../images/28.png);
+}
+
+.fourth-service .icon {
+    background-image: url(../images/29.png);
+    background-size: cover;
+}
+
+.fourth-service:hover .icon {
+    background-image: url(../images/30.png);
+}
+.fiveth-service .icon {
+    background-image: url(../images/31.png);
+    background-size: cover;
+}
+
+.fiveth-service:hover .icon {
+    background-image: url(../images/32.png);
+}
+.sixth-service .icon {
+    background-image: url(../images/33.png);
+    background-size: cover;
+}
+
+.sixth-service:hover .icon {
+    background-image: url(../images/34.png);
+}
+.seventh-service .icon {
+    background-image: url(../images/35.png);
+    background-size: cover;
+}
+
+.seventh-service:hover .icon {
+    background-image: url(../images/36.png);
+}
+.eighth-service .icon {
+    background-image: url(../images/37.png);
+    background-size: cover;
+}
+
+.eighth-service:hover .icon {
+    background-image: url(../images/38.png);
+}
+.service-item:hover {
+    background-image: url(../images/service-bg.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cat {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+.cats {
+    height: 100%;
+    background: rgb(51, 51, 51);
+    background: linear-gradient(
+        153deg,
+        rgba(51, 51, 51, 1) 15%,
+        rgba(45, 27, 0, 1) 55%,
+        rgba(51, 51, 51, 1) 87%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.category {
+    width: 98%;
+    height: 100%;
+    /* background-image: url(../images/service-bg.jpg); */
+    background-position: right top;   
+}
+.program {
+    height: 100px;
+    background-color: var(--primary);
+}
+
+.striped{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--primary);
+}
+
+/* Efek interaktif pada teks utama */
+.interactive-text {
+    font-size: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.interactive-text:hover {
+    transform: scale(1.05);
+    color: #ffc107; /* Warna kuning keemasan */
+}
+
+/* Efek teks yang menonjol */
+.highlight-text {
+    color: #562f00; /* Warna mencolok */
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    animation: pulse 1.5s infinite alternate;
+}
+
+/* Animasi hover untuk subjudul */
+.interactive-subtitle {
+    transition: letter-spacing 0.3s ease, color 0.3s ease;
+}
+
+.interactive-subtitle:hover {
+    letter-spacing: 1px;
+    color: #17a2b8; /* Biru mencolok */
+}
+
+/* Tambahkan efek glow */
+.striped {
+    background: var(--primary);
+    padding: 15px;
+    box-shadow: var(--neutral);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.striped:hover {
+    transform: scale(1.02);
+    box-shadow: var(--neutral);
+}
+
+/* Keyframe untuk animasi berkedip */
+@keyframes pulse {
+    from {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    to {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,132 @@
+/* 
+---------------------------------------------
+Footer Style
+--------------------------------------------- 
+*/
+
+footer {
+    /* background-image: url(../images/footer-bg.png); */
+    background-position: center top;
+    background-color: var(--primary);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 130px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+footer .section-heading {
+    margin-bottom: 45px;
+}
+
+footer .section-heading h4 {
+    line-height: 45px;
+    color: var(--bg-light);
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: center;
+}
+
+footer #search {
+    margin-bottom: 80px;
+}
+
+footer #search input::placeholder {
+    color: var(--bg-light);
+}
+
+footer #search input {
+    font-size: 15px;
+    color: var(--bg-light);
+    outline: none;
+    height: 46px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--bg-light);
+    width: 100%;
+}
+
+footer #search button {
+    height: 46px;
+    border-radius: 23px;
+    border: 1px solid var(--bg-light);
+    background-color: transparent;
+    color: var(--bg-light);
+    width: 100%;
+    transition: all 0.5s;
+}
+
+footer #search button:hover {
+    background-color: var(--bg-light);
+    color: var(--primary);
+}
+
+.footer-widget .logo img {
+    max-width: 96px;
+    margin-bottom: 30px;
+}
+
+.footer-widget h4 {
+    font-size: 20px;
+    /* background: linear-gradient(105deg, #ff920d 0%, #d37400 100%); */
+    background: var(--secondary);
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--bg-light);
+    border-radius: 8px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.footer-widget p {
+    margin-bottom: 15px;
+}
+
+.footer-widget p,
+.footer-widget p a {
+    color: var(--bg-light);
+}
+
+.footer-widget ul {
+    display: inline;
+    max-width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+
+.footer-widget ul li {
+    margin-bottom: 10px;
+}
+
+.footer-widget ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-widget ul li a {
+    font-size: 15px;
+    color: var(--bg-light);
+    transition: all 0.3s;
+}
+
+.footer-widget a:hover {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer .copyright-text p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: var(--bg-light);
+}
+
+footer p a {
+    color: var(--bg-light);
+    transition: all 0.5s;
+}
+
+footer p a:hover {
+    opacity: 0.75;
+    color: var(--bg-light);
+}

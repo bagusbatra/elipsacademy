@@ -1,0 +1,325 @@
+/* ROOT WARNA */
+:root {
+    --primary: #e98c1e;
+    --secondary: #333333;
+    --bg-light: #f8f8f8;
+    --accent: #d9c2a6;
+    --neutral: #b0b0b0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+/* clear fix */
+.grid:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+    width: 50%;
+}
+
+.grid-item {
+    float: left;
+}
+
+.grid-item img {
+    display: block;
+    max-width: 100%;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: var(--bg-light);
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    color: var(--bg-light);
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* 
+---------------------------------------------
+global styles
+--------------------------------------------- 
+*/
+html,
+body {
+    background: var(--bg-light);
+    font-family: "Roboto", sans-serif;
+}
+
+::selection {
+    background: var(--primary);
+    color: var(--bg-light) !important;
+}
+
+::-moz-selection {
+    background: var(--primary);
+    color: var(--bg-light) !important;
+}
+
+@media (max-width: 991px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .mobile-top-fix {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .mobile-bottom-fix {
+        margin-bottom: 30px;
+    }
+    .mobile-bottom-fix-big {
+        margin-bottom: 60px;
+    }
+}
+
+.section-heading {
+    position: relative;
+    z-index: 2;
+}
+
+.section-heading h4 {
+    color: var(--secondary);
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.section-heading h4 em {
+    font-style: normal;
+    color: var(--primary);
+}
+
+.section-heading img {
+    width: 45px;
+    height: 2px;
+}
+
+.section-heading p {
+    margin-top: 10px;
+}
+
+.show-up {
+    position: relative;
+    z-index: 2;
+}
+
+.white-button a {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    color: var(--primary) !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: var(--bg-light);
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all 0.5s;
+}
+
+.white-button a i {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.white-button a:hover {
+    background-color: var(--primary);
+    color: var(--bg-light) !important;
+}
+
+.text-button a {
+    font-size: 15px;
+    color: var(--primary);
+}
+
+.text-button a i {
+    margin-left: 5px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.text-button a:hover i {
+    margin-left: 8px;
+}
+
+.gradient-button a {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    color: var(--bg-light) !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    background: #e98c1e;
+    background: linear-gradient(105deg, #e98c1e 0%, #ffd198 100%);
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all 0.5s;
+}
+
+.gradient-button a:hover {
+    color: var(--bg-light) !important;
+    background: #e98c1e;
+    background: linear-gradient(105deg, #ffbe6f 0%, #d78219 100%);
+}
+
+.border-button a {
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--primary);
+    text-transform: capitalize;
+    font-size: 15px;
+    display: inline-block;
+    background-color: var(--bg-light);
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all 0.5s;
+}
+
+.border-button a:hover {
+    background-color: var(--primary);
+    color: var(--bg-light) !important;
+}

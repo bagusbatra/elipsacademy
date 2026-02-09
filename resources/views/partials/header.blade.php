@@ -5,23 +5,67 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a href="/" class="logo">
                         <img src="{{ asset('assets/images/logo.png') }}" alt="Elips Academy">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li class="scroll"><a href="#top" class="active">Home</a></li>
-                        <li class="scroll dropdown"><a href="#services">Program Belajar</a></li>
-                        <li class="scroll"><a href="#about">Tentang Kami</a></li>
-                        <li class="scroll"><a href="#contact">Kontak Kami</a></li>
-                        <li class="scroll"><a href="#pricing">Portofolio</a></li>
+                        {{-- Home --}}
+                        <li class="scroll">
+                            <a href="{{ route('home') }}#home"
+                            class="{{ Route::is('home') ? 'active' : '' }}">
+                            Home
+                            </a>
+                        </li>
+
+                        {{-- Program Belajar (scroll ke section services) --}}
+                        <li class="scroll">
+                            <a href="{{ route('home') }}#services"
+                            class="{{ Route::is('program') ? 'active' : '' }}">
+                            Program Belajar
+                            </a>
+                        </li>
+
+                        {{-- Tentang Kami --}}
+                        <li class="scroll">
+                            <a href="{{ route('home') }}#about"
+                            class="{{ Route::is('about') ? 'active' : '' }}">
+                            Tentang Kami
+                            </a>
+                        </li>
+
+                        {{-- Halaman terpisah --}}
+                        <li class="scroll">
+                            <a href="{{ route('home') }}"
+                            class="{{ Route::is('daftarkurusus') ? 'active' : '' }}">
+                            Daftar Kursus
+                            </a>
+                        </li>
+
+                        <li class="scroll">
+                            <a href="{{ route('artikel') }}"
+                            class="{{ Route::is('artikel') ? 'active' : '' }}">
+                            Artikel
+                            </a>
+                        </li>
+
+                        <li class="scroll">
+                            <a href="{{ route('portofolio') }}"
+                            class="{{ Route::is('portofolio') ? 'active' : '' }}">
+                            Portofolio
+                            </a>
+                        </li>
+
                         <li>
-                            <div class="gradient-button"><a id="modal_trigger" href="#modal">
-                                    <i class="fa fa-sign-in-alt"></i> Daftar/Masuk</a>
+                            <div class="gradient-button">
+                                <a id="modal_trigger" href="#login">
+                                    <i class="fa fa-sign-in-alt"></i> Daftar/Masuk
+                                </a>
                             </div>
                         </li>
                     </ul>
+
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>

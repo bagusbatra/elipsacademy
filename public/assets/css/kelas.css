@@ -1,4 +1,4 @@
-#kelas{
+#kelas {
     background-image: url(../images/bgts.png);
     background-color: var(--accent);
     background-repeat: repeat;
@@ -192,13 +192,52 @@
     color: #fff;
 }
 
-/* Responsive */
+/* Responsive*/
 @media (max-width: 900px) {
     .featured-programs {
-        grid-template-columns: 1fr;
+        padding: 40px 20px;
+        gap: 15px;
     }
 
-    .featured-card {
+    .featured-card,
+    .utama {
+        padding: 40px 15px 20px 15px;
         min-height: auto;
+    }
+
+    .featured-card h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .featured-card p,
+    .featured-points {
+        display: none;
+    }
+
+    .featured-badge {
+        top: 10px;
+        right: 10px;
+        font-size: 8px;
+        padding: 4px 8px;
+    }
+
+    .featured-btn {
+        padding: 6px 10px;
+        font-size: 11px;
+        border-radius: 6px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .featured-programs {
+        padding: 20px 10px;
+        gap: 8px;
+    }
+
+    .featured-card h3 {
+        font-size: 12px;
     }
 }

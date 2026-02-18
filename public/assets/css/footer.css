@@ -5,128 +5,140 @@ Footer Style
 */
 
 footer {
-    /* background-image: url(../images/footer-bg.png); */
+    background-color: var(--primary); /* Revert to Orange */
+    background-image: url(../images/footer-bg.png); /* Restore original bg image if it existed, though user just said color. Original css had it commented out. I'll stick to color for now or maybe add a pattern if I had one, but plain color is safer based on "kembalikan warna". */
     background-position: center top;
-    background-color: var(--primary);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 130px;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    
+    color: #fff;
+    margin-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
-footer .section-heading {
-    margin-bottom: 45px;
+/* Logo White Filter */
+footer .logo img {
+    max-width: 140px;
+    margin-bottom: 20px;
+    filter: brightness(0) invert(1); /* Keep logo white */
 }
 
-footer .section-heading h4 {
-    line-height: 45px;
-    color: var(--bg-light);
-    margin-left: 13%;
-    margin-right: 13%;
-    text-align: center;
-}
-
-footer #search {
-    margin-bottom: 80px;
-}
-
-footer #search input::placeholder {
-    color: var(--bg-light);
-}
-
-footer #search input {
-    font-size: 15px;
-    color: var(--bg-light);
-    outline: none;
-    height: 46px;
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid var(--bg-light);
-    width: 100%;
-}
-
-footer #search button {
-    height: 46px;
-    border-radius: 23px;
-    border: 1px solid var(--bg-light);
-    background-color: transparent;
-    color: var(--bg-light);
-    width: 100%;
-    transition: all 0.5s;
-}
-
-footer #search button:hover {
-    background-color: var(--bg-light);
-    color: var(--primary);
-}
-
-.footer-widget .logo img {
-    max-width: 96px;
-    margin-bottom: 30px;
-}
-
-.footer-widget h4 {
+/* Headings */
+footer .footer-widget h4 {
     font-size: 20px;
-    /* background: linear-gradient(105deg, #ff920d 0%, #d37400 100%); */
-    background: var(--secondary);
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: var(--bg-light);
-    border-radius: 8px;
-    font-weight: 800;
-    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 15px;
 }
 
-.footer-widget p {
-    margin-bottom: 15px;
+/* Decorative underline for headings */
+footer .footer-widget h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #fff; /* White underline for contrast on orange */
+    border-radius: 2px;
 }
 
-.footer-widget p,
-.footer-widget p a {
-    color: var(--bg-light);
-}
-
-.footer-widget ul {
-    display: inline;
-    max-width: 40%;
-    float: left;
-    margin-right: 10%;
-}
-
-.footer-widget ul li {
-    margin-bottom: 10px;
-}
-
-.footer-widget ul li:last-child {
-    margin-bottom: 0px;
-}
-
-.footer-widget ul li a {
+/* Paragraphs */
+footer .footer-widget p {
     font-size: 15px;
-    color: var(--bg-light);
+    line-height: 26px;
+    color: #fff; /* White text for contrast */
+    margin-bottom: 20px;
+}
+
+footer .footer-widget p a {
+    color: #fff;
     transition: all 0.3s;
 }
 
-.footer-widget a:hover {
-    font-size: 17px;
-    font-weight: bold;
+footer .footer-widget p a:hover {
+    color: var(--secondary); /* Dark hover for visibility on orange */
+    text-decoration: none;
+}
+
+/* Lists */
+footer .footer-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-widget ul li {
+    margin-bottom: 12px;
+}
+
+footer .footer-widget ul li a {
+    font-size: 15px;
+    color: #fff;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+footer .footer-widget ul li a:hover {
+    color: var(--secondary); /* Dark hover */
+    padding-left: 5px; 
+}
+
+/* Social Icons */
+footer .social-icons li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.2); /* Semi-transparent white */
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+footer .social-icons li a:hover {
+    background-color: #fff;
+    color: var(--primary); /* Orange icon on white bg */
+    transform: translateY(-3px);
+}
+
+/* Map Placeholders */
+footer .map-placeholder {
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.1) !important; 
+}
+footer .map-placeholder small {
+    color: #fff !important;
+}
+
+footer .map-placeholder:hover {
+    border-color: #fff;
+    background-color: rgba(255,255,255,0.2) !important;
+}
+
+/* Copyright */
+footer .copyright-text {
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin-top: 50px;
+    padding-top: 30px;
+    text-align: center;
 }
 
 footer .copyright-text p {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    color: var(--bg-light);
+    font-size: 14px;
+    color: #fff;
 }
 
-footer p a {
-    color: var(--bg-light);
-    transition: all 0.5s;
+footer .copyright-text p a {
+    color: #fff;
+    font-weight: 500;
 }
 
-footer p a:hover {
-    opacity: 0.75;
-    color: var(--bg-light);
+footer .copyright-text p a:hover {
+    color: var(--secondary);
 }

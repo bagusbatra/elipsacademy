@@ -19,9 +19,9 @@
                             </a>
                         </li>
 
-                        {{-- Program Belajar (scroll ke section services) --}}
+                        {{-- Program Belajar --}}
                         <li class="scroll">
-                            <a href="{{ route('home') }}#services"
+                           <a href="{{ route('program') }}"
                             class="{{ Route::is('program') ? 'active' : '' }}">
                             Program Belajar
                             </a>

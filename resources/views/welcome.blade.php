@@ -14,8 +14,8 @@
                                 data-wow-delay="1s">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <h2>Ikuti Program Profesional 1 Tahun Komputer dan Desain di Elips Academy</h2>
-                                        <p>Elips Academy menghadirkan Program Profesional 1 Tahun untuk membangun karier di
+                                        <h2>Tempat Kursus Komputer di Sidoarjo dengan Materi Lengkap & Bersertifikat</h2>
+                                        <p>Elips Academy merupakan lembaga kursus resmi dan profesional untuk membangun karier di
                                             desain & komputer. Dengan metode <b>hands-on</b>, <b>project-based learning</b>,
                                             dan <b>update teknologi terbaru</b>, Anda akan siap bersaing di dunia digital!
                                             Daftar
@@ -56,7 +56,7 @@
                     <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                         <h4>Belajar <em>Lebih Mudah</em> dengan Program Terarah</h4>
                         <img src="{{ asset('assets/images/heading-line-dec.png') }}" alt="">
-                        <p>Teknologi terus berkembang, apakah Anda siap mengikuti? Elips Academy menawarkan Program 1 Tahun
+                        <p>Teknologi terus berkembang, apakah Anda siap mengikuti? Elips Academy menawarkan layanan kursus
                             Komputer dan Desain untuk membekali Anda dengan skill yang dibutuhkan industri modern. Belajar
                             berbasis
                             proyek, instruktur berpengalaman, dan kurikulum terkini <b>semua ada di sini</b> Gabung sekarang
@@ -234,7 +234,7 @@
             PUNYA MASALAH DI ATAS DAN BINGUNG HARUS MULAI DARI MANA?
         </h2>
         <h4 class="fw-semibold text-light pb-2 interactive-subtitle">
-            Kursus Program Profesional 1 Tahun <span class="highlight-text"> SOLUSINYA!</span>
+            Kursus Program Profesional di Elips Academy <span class="highlight-text"> SOLUSINYA!</span>
         </h4>
     </div>
 
@@ -245,7 +245,7 @@
                 <div class="col-lg-6 align-self-center">
                     <div class="section-heading">
                         <h4>Informasi Tentang <em>Elips Academy</em></h4>
-                        <p>ELIPS ACADEMY menghadirkan <b>Program Profesional 1 Tahun Komputer dan Desain</b>, pilihan
+                        <p>ELIPS ACADEMY menghadirkan <b>layanan kursus profesional Komputer dan Desain</b>, pilihan
                             terbaik bagi
                             Anda yang ingin belajar cepat dan langsung kerja. Dengan materi terbaik seperti Desain Grafis,
                             Web Programming, IT dan Multimedia, serta Aplikasi Perkantoran, anda akan mendapatkan
@@ -308,49 +308,49 @@
             <div class="row  wow fadeInDown mb-3">
                 <div class="col-lg-3 col-6 p-2">
                     <div class="service-item">
-                        <div class="icon"><i class="ph ph-wind"></i></div>
-                        <h4>RUANGAN BER AC</h4>
+                        <div class="icon"><i class="ph ph-desktop-tower"></i></div>
+                        <h4>FASILITAS KOMPUTER</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 p-2">
                     <div class="service-item">
-                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <div class="icon"><i class="ph ph-chalkboard-teacher"></i></div>
                         <h4>TENTOR BERPENGALAMAN</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 p-2">
                     <div class="service-item">
                         <div class="icon"><i class="ph ph-wind"></i></div>
+                        <h4>RUANGAN BER AC</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-files"></i></div>
                         <h4>MATERI LENGKAP</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 p-2">
                     <div class="service-item">
-                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <div class="icon"><i class="ph ph-projector-screen-chart"></i></div>
                         <h4>MEDIA PRESENTASI</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 p-2">
                     <div class="service-item">
-                        <div class="icon"><i class="ph ph-wind"></i></div>
-                        <h4>FASILITAS KOMPUTER</h4>
+                        <div class="icon"><i class="ph ph-certificate"></i></div>
+                        <h4>SERTIFIKAT RESMI</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 p-2">
                     <div class="service-item">
-                        <div class="icon"><i class="ph ph-wind"></i></div>
-                        <h4>DESAIN GRAFIS</h4>
+                        <div class="icon"><i class="ph ph-sparkle"></i></div>
+                        <h4>GARANSI MAHIR</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6 p-2">
                     <div class="service-item">
-                        <div class="icon"><i class="ph ph-wind"></i></div>
-                        <h4>DESAIN GRAFIS</h4>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-6 p-2">
-                    <div class="service-item">
-                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <div class="icon"><i class="ph ph-users-four"></i></div>
                         <h4>PENYALURAN KERJA</h4>
                     </div>
                 </div>

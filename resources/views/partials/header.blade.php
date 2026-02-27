@@ -57,13 +57,14 @@
                             </a>
                         </li>
                         {{-- LOGIN REGISTER --}}
-                        {{-- <li>
+                        <li>
                             <div class="gradient-button">
-                                <a id="modal_trigger" href="#login">
+                                {{-- <a id="modal_trigger" href="#login"> --}}
+                                <a id="modal_trigger" href="{{ url('login') }}">
                                     <i class="fa fa-sign-in-alt"></i> Daftar/Masuk
                                 </a>
                             </div>
-                        </li> --}}
+                        </li>
                     </ul>
 
                     <a class='menu-trigger'>

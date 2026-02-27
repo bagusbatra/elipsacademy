@@ -209,7 +209,13 @@ responsive
     }
     .service-item {
         text-align: center;
-        padding: 30px;
+        padding: 15px;
+    }
+    .service-item .icon i {
+        font-size: 50px !important;
+    }
+    .service-item h4 {
+        font-size: 15px !important;
     }
     .menu .thumb span.category {
         display: none;
@@ -221,6 +227,7 @@ responsive
     font-size: 30px;
     }
     .service-item .icon {
+        text-align: center;
         float: none;
         margin-right: 0px;
         margin-bottom: 15px;

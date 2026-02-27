@@ -1,6 +1,6 @@
 @extends('layouts.pengunjung')
 
-@section('title', 'Elips Academy - Kursus Komputer Surabaya Sidoarjo')
+@section('title', 'Elips Academy | Kursus Komputer Surabaya Sidoarjo')
 
 @section('content')
 
@@ -42,12 +42,12 @@
             </div>
         </div>
     </div>
-
-    <div id="promo-sticker" class="animate__animated">
+    {{-- ANIMATION DAFTAR --}}
+    {{-- <div id="promo-sticker" class="animate__animated">
         <span id="close-sticker">✖</span>
         Daftar Sekarang!  
         <a href="https://elipsacademy.com" class="promo-button">Gabung</a>
-    </div>
+    </div> --}}
 
     <div id="services" class="services section">
         <div class="container">
@@ -122,7 +122,7 @@
                                         <p class="text-light fw-normal lh-base">AutoCAD</p>
                                     </a>
                                 </div>
-                                <div class="col-2 col-lg-4 text-center pb-3">
+                                <div class="col-2 col-lg-4 text-center pb-3 lain">
                                     <a href="{{ route('program') }}">
                                         <img src="{{ asset('assets/images/46.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Lihat Detail</p>
@@ -306,42 +306,55 @@
             </div>
 
             <div class="row  wow fadeInDown mb-3">
-                <div class="col-lg-4 col-6">
-                    <div class="service-item third-service">
-                        <div class="icon"></div>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <h4>RUANGAN BER AC</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <h4>TENTOR BERPENGALAMAN</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <h4>MATERI LENGKAP</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <h4>MEDIA PRESENTASI</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <h4>FASILITAS KOMPUTER</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-wind"></i></div>
                         <h4>DESAIN GRAFIS</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-6">
-                    <div class="service-item fourth-service">
-                        <div class="icon"></div>
-                        <h4>ARSITEKTUR INTERIOR</h4>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <h4>DESAIN GRAFIS</h4>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="service-item fiveth-service">
-                        <div class="icon"></div>
-                        <h4>WEB PROGRAMMING</h4>
+                <div class="col-lg-3 col-6 p-2">
+                    <div class="service-item">
+                        <div class="icon"><i class="ph ph-wind"></i></div>
+                        <h4>PENYALURAN KERJA</h4>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="service-item sixth-service">
-                        <div class="icon"></div>
-                        <h4>TEKNIK MESIN DAN SIPIL</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="service-item seventh-service">
-                        <div class="icon"></div>
-                        <h4>SKETCHUP VRAY</h4>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="service-item eighth-service">
-                        <div class="icon"></div>
-                        <h4>LIHAT SEMUA PROGRAM</h4>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

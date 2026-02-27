@@ -5,7 +5,7 @@
             <div class="col-lg-3">
                 <div class="footer-widget">
                     <div class="logo">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Elips Academy">
+                        <img src="{{ asset('assets/images/logo-white.png') }}" alt="Elips Academy">
                     </div>
                     <p>Elips Academy - Kursus Komputer & Desain Profesional.</p>
                     {{-- <ul class="social-icons">

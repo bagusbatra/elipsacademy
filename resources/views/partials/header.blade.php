@@ -56,14 +56,14 @@
                             Portofolio
                             </a>
                         </li>
-
-                        <li>
+                        {{-- LOGIN REGISTER --}}
+                        {{-- <li>
                             <div class="gradient-button">
                                 <a id="modal_trigger" href="#login">
                                     <i class="fa fa-sign-in-alt"></i> Daftar/Masuk
                                 </a>
                             </div>
-                        </li>
+                        </li> --}}
                     </ul>
 
                     <a class='menu-trigger'>

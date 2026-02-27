@@ -6,7 +6,7 @@ Footer Style
 
 footer {
     background-color: var(--primary); /* Revert to Orange */
-    background-image: url(../images/footer-bg.png); /* Restore original bg image if it existed, though user just said color. Original css had it commented out. I'll stick to color for now or maybe add a pattern if I had one, but plain color is safer based on "kembalikan warna". */
+    /* background-image: url(../images/footer-bg.png); Restore original bg image if it existed, though user just said color. Original css had it commented out. I'll stick to color for now or maybe add a pattern if I had one, but plain color is safer based on "kembalikan warna". */
     background-position: center top;
     
     color: #fff;

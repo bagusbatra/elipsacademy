@@ -104,7 +104,7 @@ Services Style
 .service-item {
     position: relative;
     z-index: 1;
-    padding: 30px;
+    padding: 20px 10px 20px 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     background-color: var(--bg-light);
     border-radius: 10px;
@@ -116,9 +116,14 @@ Services Style
     margin-left: 0px;
     margin-bottom: 30px;
     background-repeat: no-repeat;
+    color: var(--primary);
+    font-size: 30px;
     width: 50px;
     height: 50px;
     transition: all 0.3s;
+}
+.service-item .icon i {
+    font-size: 70px !important;
 }
 
 .service-item h4 {
@@ -137,6 +142,7 @@ Services Style
 
 .service-item:hover h4,
 .service-item:hover p,
+.service-item:hover .icon,
 .service-item:hover .text-button a {
     color: var(--bg-light);
 }
@@ -175,79 +181,17 @@ Services Style
     width: 100%;
 }
 
-.first-service .icon {
-    background-image: url(../images/23.png);
-    background-size: cover;
+.service-item h4{
+    color: var(--primary);
 }
 
-.first-service:hover .icon {
-    background-image: url(../images/24.png);
-}
-
-.second-service .icon {
-    background-image: url(../images/25.png);
-    background-size: cover;
-}
-
-.second-service:hover .icon {
-    background-image: url(../images/26.png);
-}
-
-.third-service .icon {
-    background-image: url(../images/27.png);
-    background-size: cover;
-}
-
-.third-service:hover .icon {
-    background-image: url(../images/28.png);
-}
-
-.fourth-service .icon {
-    background-image: url(../images/29.png);
-    background-size: cover;
-}
-
-.fourth-service:hover .icon {
-    background-image: url(../images/30.png);
-}
-.fiveth-service .icon {
-    background-image: url(../images/31.png);
-    background-size: cover;
-}
-
-.fiveth-service:hover .icon {
-    background-image: url(../images/32.png);
-}
-.sixth-service .icon {
-    background-image: url(../images/33.png);
-    background-size: cover;
-}
-
-.sixth-service:hover .icon {
-    background-image: url(../images/34.png);
-}
-.seventh-service .icon {
-    background-image: url(../images/35.png);
-    background-size: cover;
-}
-
-.seventh-service:hover .icon {
-    background-image: url(../images/36.png);
-}
-.eighth-service .icon {
-    background-image: url(../images/37.png);
-    background-size: cover;
-}
-
-.eighth-service:hover .icon {
-    background-image: url(../images/38.png);
-}
 .service-item:hover {
     background-image: url(../images/service-bg.jpg);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .cat {
     align-items: center;
     justify-content: center;
@@ -324,6 +268,22 @@ Services Style
 .striped:hover {
     transform: scale(1.02);
     box-shadow: var(--neutral);
+}
+
+.services .lain{
+    animation: goyang 2s ease-in-out infinite;
+}
+
+@keyframes goyang {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-2deg);
+    }
+    75% {
+        transform: rotate(2deg);
+    }
 }
 
 /* Keyframe untuk animasi berkedip */

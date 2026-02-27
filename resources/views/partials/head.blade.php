@@ -16,13 +16,6 @@
 <!-- Bootstrap core CSS -->
 <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
-<!--
-
-TemplateMo 570 Chain App Dev
-
-https://templatemo.com/tm-570-chain-app-dev
-
--->
 
 <!-- Additional CSS Files -->
 <link rel="icon" href="{{ asset('assets/images/logo-web.png') }}">
@@ -32,3 +25,14 @@ https://templatemo.com/tm-570-chain-app-dev
 <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/animated.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/owl.css') }}">
+
+<link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    /

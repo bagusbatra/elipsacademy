@@ -8,12 +8,11 @@
                         <img src="{{ asset('assets/images/logo-white.png') }}" alt="Elips Academy">
                     </div>
                     <p>Elips Academy - Kursus Komputer & Desain Profesional.</p>
-                    {{-- <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul> --}}
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="ph ph-instagram-logo"></i></a></li>
+                        <li><a href="#"><i class="ph ph-tiktok-logo"></i></a></li>
+                        <li><a href="#"><i class="ph ph-envelope"></i></a></li>
+                    </ul>
                 </div>
             </div>
 

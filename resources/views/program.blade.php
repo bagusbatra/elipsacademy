@@ -39,91 +39,241 @@
     </div>
 </div>
 <div class="kelas" id="kelas">
+    <h2>Pilihan Program Kelas Kursus Komputer Terbaik di Sidoarjo</h2>
     <div class="program-grid">
 
-        <div class="program-card">
-            <h3>Kursus Komputer Dasar</h3>
-            <p>Belajar komputer dari nol hingga mampu menggunakan komputer dan aplikasi dasar untuk kebutuhan sehari-hari.</p>
-            <a href="#" class="btn-detail">Lihat Detail</a>
+        <div class="card mx-2">
+            <div class="header">
+                <span class="title">Beginner</span>
+                <span class="price">Free</span>
+            </div>
+            <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
+            <ul class="lists">
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Aenean quis</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Morbi semper</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Tristique enim nec</span>
+                </li>
+            </ul>
+            <button type="button" class="action">Get Started</button>
+        </div>
+        
+        <div class="card mx-2">
+            <div class="header">
+                <span class="title">Beginner</span>
+                <span class="price">Free</span>
+            </div>
+            <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
+            <ul class="lists">
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Aenean quis</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Morbi semper</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Tristique enim nec</span>
+                </li>
+            </ul>
+            <button type="button" class="action">Get Started</button>
+        </div>
+        
+        <div class="card mx-2">
+            <div class="header">
+                <span class="title">Beginner</span>
+                <span class="price">Free</span>
+            </div>
+            <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
+            <ul class="lists">
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Aenean quis</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Morbi semper</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Tristique enim nec</span>
+                </li>
+            </ul>
+            <button type="button" class="action">Get Started</button>
+        </div>
+        
+        <div class="card mx-2">
+            <div class="header">
+                <span class="title">Beginner</span>
+                <span class="price">Free</span>
+            </div>
+            <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
+            <ul class="lists">
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Aenean quis</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Morbi semper</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Tristique enim nec</span>
+                </li>
+            </ul>
+            <button type="button" class="action">Get Started</button>
+        </div>
+        
+        <div class="card mx-2">
+            <div class="header">
+                <span class="title">Beginner</span>
+                <span class="price">Free</span>
+            </div>
+            <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
+            <ul class="lists">
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Aenean quis</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Morbi semper</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Tristique enim nec</span>
+                </li>
+            </ul>
+            <button type="button" class="action">Get Started</button>
+        </div>
+        
+        <div class="card mx-2">
+            <div class="header">
+                <span class="title">Beginner</span>
+                <span class="price">Free</span>
+            </div>
+            <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
+            <ul class="lists">
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Aenean quis</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Morbi semper</span>
+                </li>
+                <li class="list">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Tristique enim nec</span>
+                </li>
+            </ul>
+            <button type="button" class="action">Get Started</button>
         </div>
 
-        <div class="program-card">
-            <h3>Microsoft Office Lengkap</h3>
-            <p>Pelatihan Word, Excel, dan PowerPoint untuk sekolah, kuliah, dan kebutuhan kerja perkantoran.</p>
-            <a href="#" class="btn-detail">Lihat Detail</a>
-        </div>
-
-        <div class="program-card">
-            <h3>Desain Grafis</h3>
-            <p>Belajar desain grafis menggunakan CorelDRAW dan Photoshop untuk kebutuhan kreatif dan percetakan.</p>
-            <a href="#" class="btn-detail">Lihat Detail</a>
-        </div>
-
-        <div class="program-card">
-            <h3>Komputer Perkantoran</h3>
-            <p>Program untuk meningkatkan produktivitas kerja dan pengelolaan administrasi perkantoran.</p>
-            <a href="#" class="btn-detail">Lihat Detail</a>
-        </div>
-
-        <div class="program-card">
-            <h3>Komputer Akuntansi</h3>
-            <p>Pelatihan pembukuan dan administrasi digital untuk UMKM dan bisnis kecil.</p>
-            <a href="#" class="btn-detail">Lihat Detail</a>
-        </div>
     </div>
 </div>
 
 {{-- TOP 3 --}}
-
-<div class="featured-programs">
-
-    <div class="featured-card">
-        <div class="featured-badge">Unggulan</div>
-        <h3>Microsoft Office Profesional</h3>
-        <p>
-            Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
-            untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
-        </p>
-        <ul class="featured-points">
-            <li>Word, Excel & PowerPoint</li>
-            <li>Latihan berbasis studi kasus</li>
-            <li>Sertifikat kelulusan</li>
-        </ul>
-        <a href="#" class="featured-btn">Lihat Detail</a>
+<div class="topthree">
+    <div class="toptittle">
+        <h2>Program Unggulan Kursus Komputer Terbaik di Sidoarjo</h2>
     </div>
+    <div class="featured-programs">
+        <div class="card_box">
+            <span></span>
+            <h2>Microsoft Office</h2>
+            <h3>Kelas Rombel</h3>
+            <p>
+                Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
+                untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
+            </p>
+            <ul class="featured-points">
+                <li>Word, Excel & PowerPoint</li>
+                <li>Latihan berbasis studi kasus</li>
+                <li>Sertifikat kelulusan</li>
+            </ul>
+            <a href="#" class="featured-btn">Lihat Detail</a>
+        </div>
 
-    <div class="featured-card utama">
-        <div class="featured-badge">Unggulan</div>
-        <h3>Desain Grafis & Multimedia</h3>
-        <p>
-            Program kreatif untuk mempelajari desain grafis menggunakan software populer 
-            untuk kebutuhan industri kreatif dan percetakan.
-        </p>
-        <ul class="featured-points">
-            <li>Photoshop & CorelDRAW</li>
-            <li>Project desain nyata</li>
-            <li>Portofolio peserta</li>
-        </ul>
-        <a href="#" class="featured-btn">Lihat Detail</a>
+        <div class="card_box">
+            <span></span>
+            <h2>Microsoft Office</h2>
+            <h3>Kelas Rombel</h3>
+            <p>
+                Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
+                untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
+            </p>
+            <ul class="featured-points">
+                <li>Word, Excel & PowerPoint</li>
+                <li>Latihan berbasis studi kasus</li>
+                <li>Sertifikat kelulusan</li>
+            </ul>
+            <a href="#" class="featured-btn">Lihat Detail</a>
+        </div>
+
+        <div class="card_box">
+            <span></span>
+            <h2>Microsoft Office</h2>
+            <h3>Kelas Rombel</h3>
+            <p>
+                Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
+                untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
+            </p>
+            <ul class="featured-points">
+                <li>Word, Excel & PowerPoint</li>
+                <li>Latihan berbasis studi kasus</li>
+                <li>Sertifikat kelulusan</li>
+            </ul>
+            <a href="#" class="featured-btn">Lihat Detail</a>
+        </div>
     </div>
-
-    <div class="featured-card">
-        <div class="featured-badge">Unggulan</div>
-        <h3>Komputer Perkantoran & Administrasi</h3>
-        <p>
-            Program unggulan untuk meningkatkan keterampilan administrasi dan pengelolaan data 
-            menggunakan komputer secara profesional.
-        </p>
-        <ul class="featured-points">
-            <li>Administrasi & pengarsipan</li>
-            <li>Pengolahan data kantor</li>
-            <li>Siap kerja</li>
-        </ul>
-        <a href="#" class="featured-btn">Lihat Detail</a>
-    </div>
-
 </div>
-
 
 
 @endsection

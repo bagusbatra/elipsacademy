@@ -23,10 +23,12 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="white-button first-button scroll-to-section">
-                                            <a href="{{ route('program') }}"><i class="bi bi-search me-1"></i> Lihat Program</a>
+                                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#modalHubungiKami">
+                                                <i class="bi bi-telephone-inbound-fill"></i> Hubungi Kami
+                                            </a>
                                         </div>
                                         <div class="white-button scroll-to-section">
-                                            <a href="#contact"><i class="bi bi-calendar3 me-2"></i>Daftar Kelas</a>
+                                            <a href="{{ route('program') }}"><i class="bi bi-calendar3 me-2"></i>Daftar Kelas</a>
                                         </div>
                                     </div>
                                 </div>
@@ -90,34 +92,34 @@
                 <div class="col-lg-4 cats">
                     <div class="row wow fadeInDown cat">
                         <div class="category">
-                            <h5 class="text-light pt-3 pb-4 ps-2">PEMBELAJARAN UNGGULAN</h5>
+                            <h5 class="text-light pt-3 pb-4 ps-2">KURSUS UNGGULAN</h5>
                             <div class="row d-flex justify-content-around pt-2 pb-2">
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
                                         <img src="{{ asset('assets/images/43.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Komputer</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center  pb-3">
-                                    <a href="#">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
                                         <img src="{{ asset('assets/images/39.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Office</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
                                         <img src="{{ asset('assets/images/41.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Desain</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
                                         <img src="{{ asset('assets/images/40.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Digital Marketing</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
                                         <img src="{{ asset('assets/images/44.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">AutoCAD</p>
                                     </a>

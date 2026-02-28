@@ -29,17 +29,17 @@
 
                         {{-- Tentang Kami --}}
                         <li class="scroll">
-                            <a href="{{ route('home') }}#about"
-                            class="{{ Route::is('about') ? 'active' : '' }}">
+                            <a href="{{ route('tentang') }}"
+                            class="{{ Route::is('tentang') ? 'active' : '' }}">
                             Tentang Kami
                             </a>
                         </li>
 
                         {{-- Halaman terpisah --}}
                         <li class="scroll">
-                            <a href="{{ route('home') }}"
-                            class="{{ Route::is('daftarkurusus') ? 'active' : '' }}">
-                            Daftar Kursus
+                            <a href="{{ route('sertifikat') }}"
+                            class="{{ Route::is('sertifikat') ? 'active' : '' }}">
+                            Sertifikat
                             </a>
                         </li>
 

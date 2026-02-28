@@ -4,7 +4,7 @@
 
             <!-- Header -->
             <div class="modal-header">
-                <h5 class="modal-title">Pilih Admin Pendaftaran</h5>
+                <h5 class="modal-title">Pilih Admin Elips Academy</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
 
@@ -48,13 +48,62 @@
                         </div>
 
                         <button type="submit" class="btn btn-outline-dark w-100 btnkirimdaftar">
-                            Kirim Pendaftaran
+                            Kirim
                         </button>
 
                         <button type="button" class="btn btn-outline-dark w-100 mt-2 btnkembaliadmin" onclick="kembaliPilihAdmin()">
                             ← Ganti Admin
                         </button>
                     </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{{-- MODAL HUBUNGI KAMI PADA HALAMAN WELCOME --}}
+
+<div class="modal fade" id="modalHubungiKami" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Header -->
+            <div class="modal-header">
+                <h5 class="modal-title">Pilih Admin WhatsApp</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Body -->
+            <div class="modal-body">
+
+                <div class="mb-4">
+                    <label class="form-label">Nama Anda</label>
+                    <input type="text" id="namaPengunjung" class="form-control" placeholder="Masukkan nama Anda" required>
+                    <small class="text-danger d-none" id="errorNama">Nama wajib diisi</small>
+                </div>
+
+                <div class="d-grid gap-3">
+
+                    <button type="button"
+                            class="btn btn-dark btn-admin"
+                            data-nomor="6285161143514">
+                        Admin Elips Academy Surabaya
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-dark btn-admin"
+                            data-nomor="6285161143514">
+                        Admin Elips Academy Sidoarjo
+                    </button>
+
+                    <button type="button"
+                            class="btn btn-dark btn-admin"
+                            data-nomor="6285161143514">
+                        Admin Elips Academy Candi
+                    </button>
 
                 </div>
 

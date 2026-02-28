@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <!-- Column 1: Brand & Socials -->
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <div class="footer-widget">
                     <div class="logo">
                         <img src="{{ asset('assets/images/logo-white.png') }}" alt="Elips Academy">
@@ -92,14 +92,30 @@
             </div>
 
             <!-- Column 4: Contact Info (Moved) -->
-            <div class="col-lg-3">
+            <div class="col-lg-4">
                 <div class="footer-widget">
                     <h4>Hubungi Kami</h4>
                     <ul class="mb-3">
-                        <li>Admin Candi: <a href="https://wa.me/6282337876034">0823-3787-6034</a></li>
-                        <li>Admin Buduran: <a href="https://wa.me/6281217137823">0812-1713-7823</a></li>
-                        <li>Admin Surabaya: <a href="https://wa.me/6282139257206">0821-3925-7206</a></li>
-                        <li>Email: <a href="mailto:elipsacademy@gmail.com">elipsacademy@gmail.com</a></li>
+                        <li>
+                            <button>
+                                <a href="https://wa.me/6282337876034" class="btn2"><span class="spn2"><i class="bi bi-telephone-inbound"></i> Elips Academy Candi</span></a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a href="https://wa.me/6281217137823" class="btn2"><span class="spn2"><i class="bi bi-telephone-inbound"></i> Elips Academy Buduran</span></a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a href="https://wa.me/6282139257206" class="btn2"><span class="spn2"><i class="bi bi-telephone-inbound"></i> Elips Academy Surabaya</span></a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a href="mailto:elipsacademy@gmail.com" class="btn2"><span class="spn2"><i class="bi bi-envelope-at"></i> Email Elips Academy</span></a>
+                            </button>
+                        </li>
                     </ul>
                 </div>
             </div>

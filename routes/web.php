@@ -22,9 +22,18 @@ Route::get('/', function () {
 // Halaman Program
 Route::get('/program', [PengunjungController::class, 'HalamanProgram'])
     ->name('program');
-
-Route::get('/daftarkursus', [PengunjungController::class, 'HalamanDaftarKursus'])
-    ->name('daftarkursus');
+// Halaman Tentang Kami
+Route::get('/tentang', [PengunjungController::class, 'HalamanTentangKami'])
+    ->name('tentang');
+// Halaman Sertifikat
+Route::get('/sertifikat', [PengunjungController::class, 'HalamanSertifikat'])
+    ->name('sertifikat');
+// Halaman Artikel
+Route::get('/artikel', [PengunjungController::class, 'HalamanArtikel'])
+    ->name('artikel');
+// Halaman Portofolio
+Route::get('/portofolio', [PengunjungController::class, 'HalamanPortofolio'])
+    ->name('portofolio');
 
 Route::get('/about', function () {
     return view('about');

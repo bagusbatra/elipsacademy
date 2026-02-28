@@ -1,6 +1,6 @@
 @extends('layouts.pengunjung')
 
-@section('title', 'Program Kursus | Elips Academy')
+@section('title', 'Tentang Kami | Elips Academy')
 
 @section('content')
 <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">

@@ -111,3 +111,53 @@
 #modalDaftarKelas #formPendaftaran {
     transition: all 0.3s ease;
 }
+
+
+/* =========================================
+   STYLE MODAL HUBUNGI KAMI PADA HALAMAN WELCOME
+========================================= */
+#modalHubungiKami .modal-content {
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+#modalHubungiKami .modal-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#modalHubungiKami .modal-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#modalHubungiKami .modal-body {
+    padding: 25px;
+}
+
+/* =========================================
+   TOMBOL WHATSAPP (ANCHOR DETAIL)
+========================================= */
+
+#modalHubungiKami #namaPengunjung {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#modalHubungiKami .btn-admin {
+    border-radius: 12px;
+    color: var(--primary);
+    border: none;
+    padding: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+#modalHubungiKami .btn-admin:hover {
+    transform: translateY(-3px);
+    font-weight: bold;
+    color: var(--bg-light);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}

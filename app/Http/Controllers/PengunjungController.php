@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class PengunjungController extends Controller
 {
     public function HalamanUtama()
@@ -14,8 +12,24 @@ class PengunjungController extends Controller
     {
         return view('program'); // Mengarahkan ke halaman program.blade.php
     }
-    public function HalamanDaftarKursus()
+    public function HalamanTentangKami()
     {
-        return view('daftarkursus'); // Mengarahkan ke halaman program.blade.php
+        abort(400);
+        // return view('tentang'); // Mengarahkan ke halaman tentang.blade.php
+    }
+    public function HalamanSertifikat()
+    {
+        abort(400);
+        // return view('sertifikat'); // Mengarahkan ke halaman sertifikat.blade.php
+    }
+    public function HalamanArtikel()
+    {
+        abort(400);
+        // return view('artikel'); // Mengarahkan ke halaman artikel.blade.php
+    }
+    public function HalamanPortofolio()
+    {
+        abort(400);
+        // return view('portofolio'); // Mengarahkan ke halaman portofolio.blade.php
     }
 }

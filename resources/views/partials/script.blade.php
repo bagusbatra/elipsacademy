@@ -12,3 +12,4 @@
     <script src="{{ asset('assets/js/popup.js') }}"></script>
     <script src="{{ asset('assets/js/custom.js') }}"></script>
     <script src="{{ asset('assets/js/add.js') }}"></script>
+    <script src="{{ asset('assets/js/modaldaftarkelas.js') }}"></script>

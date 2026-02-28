@@ -11,7 +11,8 @@
 
     @include('partials.header')
 
-    @include('partials.modalDaftarOrMasuk')
+    @include('partials.modal.modalDaftarOrMasuk')
+    @include('partials.modal.modaldaftarkelas')
 
     @yield('content')
 

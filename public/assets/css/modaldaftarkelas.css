@@ -1,0 +1,113 @@
+/* =========================================
+   MODAL DAFTAR KELAS - SCOPED STYLE
+   Tidak mengganggu modal lain
+========================================= */
+
+#modalDaftarKelas .modal-content {
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+/* Header */
+#modalDaftarKelas .modal-header {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 20px 25px;
+}
+
+#modalDaftarKelas .modal-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Body */
+#modalDaftarKelas .modal-body {
+    padding: 25px;
+}
+
+/* =========================================
+   STEP PILIH ADMIN
+========================================= */
+
+#modalDaftarKelas #pilihAdmin button {
+    border-radius: 12px;
+    padding: 14px;
+    border: var(--primary);
+    color: var(--primary);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+#modalDaftarKelas #pilihAdmin button:hover {
+    transform: translateY(-3px);
+    color: var(--bg-light);
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* =========================================
+   FORM STYLE
+========================================= */
+
+#modalDaftarKelas .form-label {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+#modalDaftarKelas .form-control,
+#modalDaftarKelas .form-select {
+    border-radius: 10px;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    transition: 0.3s ease;
+}
+
+#modalDaftarKelas .form-control:focus,
+#modalDaftarKelas .form-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(255, 136, 0, 0.15);
+}
+
+/* Submit Button */
+#modalDaftarKelas .btnkirimdaftar {
+    border-radius: 12px;
+    border: none;
+    color: var(--primary);
+    border: var(--primary);
+    padding: 12px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+#modalDaftarKelas .btnkirimdaftar:hover {
+    transform: translateY(-2px);
+    color: var(--bg-light);
+    font-weight: bold;
+}
+
+/* Ganti Admin Link */
+#modalDaftarKelas .btnkembaliadmin {
+    font-size: 14px;
+    border: none;
+    border-radius: 12px;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+#modalDaftarKelas .btnkembaliadmin:hover {
+    text-decoration: underline;
+    color: var(--bg-light);
+    font-weight: bold;
+}
+
+/* =========================================
+   Smooth Transition STEP
+========================================= */
+
+#modalDaftarKelas #pilihAdmin,
+#modalDaftarKelas #formPendaftaran {
+    transition: all 0.3s ease;
+}

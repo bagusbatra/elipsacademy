@@ -3,7 +3,6 @@
 @section('title', 'Program Kursus - Elips Academy')
 
 @section('content')
-
 <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
         <div class="row">
@@ -68,7 +67,9 @@
                     <span>Tristique enim nec</span>
                 </li>
             </ul>
-            <button type="button" class="action">Get Started</button>
+            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+                Get Started1
+            </button>
         </div>
         
         <div class="card mx-2">
@@ -254,7 +255,9 @@
                 <li>Latihan berbasis studi kasus</li>
                 <li>Sertifikat kelulusan</li>
             </ul>
-            <a href="#" class="featured-btn">Lihat Detail</a>
+            <a href="#" class="featured-btn" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+                Lihat Detail1
+            </a>
         </div>
 
         <div class="card_box">

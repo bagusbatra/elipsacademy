@@ -95,31 +95,31 @@
                             <h5 class="text-light pt-3 pb-4 ps-2">KURSUS UNGGULAN</h5>
                             <div class="row d-flex justify-content-around pt-2 pb-2">
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="Coding">
                                         <img src="{{ asset('assets/images/43.png') }}" class="img mb-2" alt="">
-                                        <p class="text-light fw-normal lh-base">Komputer</p>
+                                        <p class="text-light fw-normal lh-base">Coding</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center  pb-3">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="Office">
                                         <img src="{{ asset('assets/images/39.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Office</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="Desain">
                                         <img src="{{ asset('assets/images/41.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Desain</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="Digital Marketing">
                                         <img src="{{ asset('assets/images/40.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">Digital Marketing</p>
                                     </a>
                                 </div>
                                 <div class="col-2 col-lg-4 text-center pb-3">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="AutoCAD">
                                         <img src="{{ asset('assets/images/44.png') }}" class="img mb-2" alt="">
                                         <p class="text-light fw-normal lh-base">AutoCAD</p>
                                     </a>

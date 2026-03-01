@@ -37,6 +37,75 @@
         </div>
     </div>
 </div>
+
+{{-- JENIS KELAS --}}
+<div class="classtype">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading text-center">
+            <h4>Pilihan 3 Kelas <em>Kursus Komputer Siap Kerja</em> dan <em>Bersertifikat Resmi</em></h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p class="t pb-5" style="color: black">Elips Academy menyediakan 3 jenis kelas kursus komputer bersertifikat yang dirancang untuk meningkatkan keterampilan dan mempersiapkan peserta agar siap kerja secara profesional.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <h4 style="font-weight: bold">HOME PRIVATE</h4>
+            <div class="icon">
+              <img src="{{ asset('assets/images/3.png') }}" alt="">
+            </div>
+            <ul>
+              <li><b>Belajar Lebih Nyaman Dirumah</b></li>
+              <li>1 Pengajar 1 Siswa</li>
+              <li>Jadwal Fleksibel</li>
+              <li>Materi Dapat Menyesuaikan</li>
+              <li>Pengajar Profesional</li>
+              <li>Materi Pembelakaran</li>
+              <li>Sertifikat Resmi</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-pro">
+            <h4 style="font-weight: bold">KELAS ROMBEL</h4>
+            <div class="icon">
+              <img src="{{ asset('assets/images/1.png') }}" alt="">
+            </div>
+            <ul>
+              <li><b>Biaya Lebih Terjangkau</b></li>
+              <li>Interaktif dan Seru</li>
+              <li>Relasi dan Diskusi Bersama</li>
+              <li>Cocok Untuk Pelajar/Mahasiswa</li>
+              <li>Grup Belajar</li>
+              <li>Pengajar Profesional</li>
+              <li>Materi Pembelakaran</li>
+              <li>Sertifikat Resmi</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <h4 style="font-weight: bold">REGULER PRIVATE</h4>
+            <div class="icon">
+              <img src="{{ asset('assets/images/2.png') }}" alt="">
+            </div>
+            <ul>
+              <li><b>1 Pengajar 1 Siswa</b></li>
+              <li>Jadwal Fleksibel</li>
+              <li>Materi Dapat Menyesuaikan</li>
+              <li>Pengajar Profesional</li>
+              <li>Materi Pembelakaran</li>
+              <li>Sertifikat Resmi</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
 <div class="kelas" id="kelas">
     <h2>Pilihan Program Kelas Kursus Komputer Terbaik di Sidoarjo</h2>
     <div class="program-grid">
@@ -67,7 +136,7 @@
                     <span>Tristique enim nec</span>
                 </li>
             </ul>
-            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
                 DAFTAR
             </button>
         </div>
@@ -98,7 +167,7 @@
                     <span>Tristique enim nec</span>
                 </li>
             </ul>
-            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
                 DAFTAR
             </button>
         </div>
@@ -129,7 +198,7 @@
                     <span>Tristique enim nec</span>
                 </li>
             </ul>
-            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
                 DAFTAR
             </button>
         </div>
@@ -160,7 +229,7 @@
                     <span>Tristique enim nec</span>
                 </li>
             </ul>
-            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
                 DAFTAR
             </button>
         </div>
@@ -191,7 +260,7 @@
                     <span>Tristique enim nec</span>
                 </li>
             </ul>
-            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
                 DAFTAR
             </button>
         </div>
@@ -222,7 +291,7 @@
                     <span>Tristique enim nec</span>
                 </li>
             </ul>
-            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
+            <button type="button" class="action" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
                 DAFTAR
             </button>
         </div>
@@ -230,68 +299,66 @@
     </div>
 </div>
 
-{{-- TOP 3 --}}
-    <div class="topthree">
-        <div class="toptittle">
-            <h2>Program Unggulan Kursus Komputer Terbaik di Sidoarjo</h2>
+    {{-- TOP 3 --}}
+<div class="topthree">
+    <div class="toptittle">
+        <h2>Program Unggulan Kursus Komputer Terbaik di Sidoarjo</h2>
+    </div>
+    <div class="featured-programs">
+        <div class="card_box">
+            <span></span>
+            <h2>Microsoft Office</h2>
+            <h3>Kelas Rombel</h3>
+            <p>
+                Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
+                untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
+            </p>
+            <ul class="featured-points">
+                <li>Word, Excel & PowerPoint</li>
+                <li>Latihan berbasis studi kasus</li>
+                <li>Sertifikat kelulusan</li>
+            </ul>
+            <a href="#" class="featured-btn" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
+                DAFTAR
+            </a>        
         </div>
-        <div class="featured-programs">
-            <div class="card_box">
-                <span></span>
-                <h2>Microsoft Office</h2>
-                <h3>Kelas Rombel</h3>
-                <p>
-                    Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
-                    untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
-                </p>
-                <ul class="featured-points">
-                    <li>Word, Excel & PowerPoint</li>
-                    <li>Latihan berbasis studi kasus</li>
-                    <li>Sertifikat kelulusan</li>
-                </ul>
-                <a href="#" class="featured-btn" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
-                    DAFTAR
-                </a>        
-            </div>
 
-            <div class="card_box">
-                <span></span>
-                <h2>Microsoft Office</h2>
-                <h3>Kelas Rombel</h3>
-                <p>
-                    Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
-                    untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
-                </p>
-                <ul class="featured-points">
-                    <li>Word, Excel & PowerPoint</li>
-                    <li>Latihan berbasis studi kasus</li>
-                    <li>Sertifikat kelulusan</li>
-                </ul>
-                <a href="#" class="featured-btn" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
-                    DAFTAR
-                </a>
-            </div>
+        <div class="card_box">
+            <span></span>
+            <h2>Microsoft Office</h2>
+            <h3>Kelas Rombel</h3>
+            <p>
+                Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
+                untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
+            </p>
+            <ul class="featured-points">
+                <li>Word, Excel & PowerPoint</li>
+                <li>Latihan berbasis studi kasus</li>
+                <li>Sertifikat kelulusan</li>
+            </ul>
+            <a href="#" class="featured-btn" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
+                DAFTAR
+            </a>
+        </div>
 
-            <div class="card_box">
-                <span></span>
-                <h2>Microsoft Office</h2>
-                <h3>Kelas Rombel</h3>
-                <p>
-                    Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
-                    untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
-                </p>
-                <ul class="featured-points">
-                    <li>Word, Excel & PowerPoint</li>
-                    <li>Latihan berbasis studi kasus</li>
-                    <li>Sertifikat kelulusan</li>
-                </ul>
-                <a href="#" class="featured-btn" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas">
-                    DAFTAR
-                </a>        
-            </div>
+        <div class="card_box">
+            <span></span>
+            <h2>Microsoft Office</h2>
+            <h3>Kelas Rombel</h3>
+            <p>
+                Program unggulan untuk menguasai Microsoft Word, Excel, dan PowerPoint secara terstruktur 
+                untuk kebutuhan sekolah, kuliah, dan dunia kerja modern.
+            </p>
+            <ul class="featured-points">
+                <li>Word, Excel & PowerPoint</li>
+                <li>Latihan berbasis studi kasus</li>
+                <li>Sertifikat kelulusan</li>
+            </ul>
+            <a href="#" class="featured-btn" data-bs-toggle="modal" data-bs-target="#modalDaftarKelas" data-program="contoh"> {{-- data-program harus diisi sesuai nama program --}}
+                DAFTAR
+            </a>        
         </div>
     </div>
 </div>
-
 
 @endsection

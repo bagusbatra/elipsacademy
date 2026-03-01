@@ -13,9 +13,20 @@
                 <!-- STEP 1: PILIH ADMIN -->
                 <div id="pilihAdmin">
                     <div class="d-grid gap-3">
-                        <button class="btn btn-outline-dark" onclick="pilihAdmin('Elips Academy Surabaya')">Elips Academy Surabaya</button>
-                        <button class="btn btn-outline-dark" onclick="pilihAdmin('Elips Academy Sidoarjo')">Elips Academy Sidoarjo</button>
-                        <button class="btn btn-outline-dark" onclick="pilihAdmin('Elips Academy Candi')">Elips Academy Candi</button>
+                        <button class="btn btn-outline-dark"
+                                onclick="pilihAdmin('Elips Academy Surabaya','6282139257206')">
+                            Elips Academy Surabaya
+                        </button>
+
+                        <button class="btn btn-outline-dark"
+                                onclick="pilihAdmin('Elips Academy Sidoarjo','6281217137823')">
+                            Elips Academy Sidoarjo
+                        </button>
+
+                        <button class="btn btn-outline-dark"
+                                onclick="pilihAdmin('Elips Academy Candi','6282337876034')">
+                            Elips Academy Candi
+                        </button>
                     </div>
                 </div>
 
@@ -27,6 +38,7 @@
 
                         <!-- Hidden input untuk simpan admin -->
                         <input type="hidden" name="admin" id="adminTerpilih">
+                        <input type="hidden" id="programTerpilih">
 
                         <div class="mb-3">
                             <label class="form-label">Nama Lengkap</label>
@@ -34,20 +46,11 @@
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label">No. WhatsApp</label>
-                            <input type="text" name="wa" class="form-control" required>
+                            <label class="form-label">Alamat</label>
+                            <input type="text" name="alamat" class="form-control" required>
                         </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Pilih Program</label>
-                            <select name="program" class="form-select">
-                                <option value="Desain Grafis">Desain Grafis</option>
-                                <option value="Web Development">Web Development</option>
-                                <option value="Microsoft Office">Microsoft Office</option>
-                            </select>
-                        </div>
-
-                        <button type="submit" class="btn btn-outline-dark w-100 btnkirimdaftar">
+                        <button type="button" class="btn btn-outline-dark w-100 btnkirimdaftar" onclick="kirimWhatsApp()">
                             Kirim
                         </button>
 
@@ -89,19 +92,19 @@
 
                     <button type="button"
                             class="btn btn-dark btn-admin"
-                            data-nomor="6285161143514">
+                            data-nomor="6282139257206">
                         Admin Elips Academy Surabaya
                     </button>
 
                     <button type="button"
                             class="btn btn-dark btn-admin"
-                            data-nomor="6285161143514">
+                            data-nomor="6281217137823">
                         Admin Elips Academy Sidoarjo
                     </button>
 
                     <button type="button"
                             class="btn btn-dark btn-admin"
-                            data-nomor="6285161143514">
+                            data-nomor="6282337876034">
                         Admin Elips Academy Candi
                     </button>
 

@@ -166,11 +166,11 @@ The Clients
 }
 
 .pricing-item-regular {
-    margin-top: 30px;
+    margin-top: 0px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
     border-radius: 50px;
-    padding: 90px 30px;
     text-align: center;
+    padding: 45px 30px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -218,6 +218,7 @@ The Clients
     width: 120px;
     height: 106px;
     margin-bottom: 30px;
+    margin-top: 60px;
 }
 
 .pricing-item-regular ul li {
@@ -244,10 +245,11 @@ The Clients
 .pricing-item-pro {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
     border-radius: 50px;
-    padding: 120px 30px;
+    padding: 45px 30px;
     text-align: center;
     position: relative;
     z-index: 1;
+    margin-bottom: 30px;
     overflow: hidden;
 }
 
@@ -261,7 +263,10 @@ The Clients
     width: 281px;
     height: 251px;
 }
-
+.classtype {
+    padding-top: 5px;
+    padding-bottom: 65px;
+}
 .pricing-item-pro:after {
     position: absolute;
     bottom: 0;
@@ -285,16 +290,27 @@ The Clients
     top: 30px;
 }
 
-.pricing-item-pro h4 {
-    font-size: 20px;
-    font-weight: 700;
+.pricing-item-pro h4,
+.pricing-item-regular h4 {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
     margin-bottom: 30px;
+}
+.pricing-item-pro h4 {
+    font-size: 28px; /* lebih besar */
+}
+.pricing-item-regular h4 {
+    font-size: 20px;
 }
 
 .pricing-item-pro .icon img {
     width: 120px;
     height: 106px;
     margin-bottom: 30px;
+    margin-top: 60px;
 }
 
 .pricing-item-pro ul li {

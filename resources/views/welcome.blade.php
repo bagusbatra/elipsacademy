@@ -298,8 +298,35 @@
     </div>
     
     {{-- TAMBAHKAN SLIDER INSTANSI YANG TELAH BEKERJASAMA --}}
-
-
+    <div id="clients" class="marquee-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading marquee-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h4>Instansi Yang Telah <em>Bekerjasama</em></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="marquee-container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="marquee-content">
+                {{-- Logo list 1 --}}
+                @for ($i = 0; $i <= 17; $i++)
+                    <div class="marquee-item">
+                        <img src="{{ asset('assets/images/company/' . $i . '.svg') }}" alt="Partner {{ $i }}" loading="lazy">
+                    </div>
+                @endfor
+                
+                {{-- Logo list 2 (Duplicated for continuous infinite scrolling) --}}
+                @for ($i = 0; $i <= 17; $i++)
+                    <div class="marquee-item">
+                        <img src="{{ asset('assets/images/company/' . $i . '.svg') }}" alt="Partner {{ $i }}" loading="lazy">
+                    </div>
+                @endfor
+            </div>
+        </div>
+    </div>
 
 
     {{-- TAMBHKAN VISI MISI --}}

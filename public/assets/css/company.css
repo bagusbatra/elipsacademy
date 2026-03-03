@@ -1,0 +1,100 @@
+/* 
+---------------------------------------------
+Logo Marquee Company Style
+--------------------------------------------- 
+*/
+
+.marquee-section {
+    padding: 60px 0;
+    background-color: #fff; /* adjust if needed to match theme */
+    overflow: hidden;
+}
+
+.marquee-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.marquee-container {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+/* Gradient effect to fade edges */
+.marquee-container::before,
+.marquee-container::after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.marquee-container::before {
+    left: 0;
+    background: linear-gradient(
+        to right,
+        white 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.marquee-container::after {
+    right: 0;
+    background: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.marquee-content {
+    display: flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+}
+
+.marquee-content:hover {
+    animation-play-state: paused;
+}
+
+.marquee-item {
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marquee-item img {
+    height: 80px; 
+    width: 150px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.marquee-item img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% / 2));
+    }
+}
+
+@media (max-width: 768px) {
+    .marquee-item img {
+        height: 40px;
+        max-width: 100px;
+    }
+
+    .marquee-container::before,
+    .marquee-container::after {
+        width: 100px;
+    }
+}

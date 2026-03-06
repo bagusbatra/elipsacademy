@@ -297,6 +297,82 @@
         </div>
     </div>
     
+
+ {{-- TAMBAHKAN VISI MISI --}}
+
+    <div id="visimisi" class="visimisi-section section" style="padding-top: 100px; padding-bottom: 50px; position: relative; z-index: 1;">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <h4><em>Visi</em> & <em>Misi</em></h4>
+                        <img src="{{ asset('assets/images/heading-line-dec.png') }}" alt="" class="mt-3">
+                        <p style="color: var(--secondary); margin-top: 20px;">Komitmen kami dalam memajukan pendidikan non-formal dan menciptakan talenta digital terbaik.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-stretch">
+                <!-- Visi -->
+                <div class="col-lg-5 mb-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="box-item p-5 h-100" style="background-color: var(--bg-light); border-radius: 40px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07); position: relative; z-index: 2; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div class="text-center mb-4">
+                            <i class="ph ph-eye" style="font-size: 60px; color: var(--primary);"></i>
+                        </div>
+                        <h4 class="mb-4 text-center" style="color: var(--primary); font-size: 28px; font-weight: 700;">Visi Kami</h4>
+                        <p style="color: var(--secondary); line-height: 1.8; text-align: justify; font-size: 16px;">
+                            Mewujudkan Lembaga Pendidikan non formal yang terdepan dengan berbasis teknologi informasi dan komunikasi, hingga mampu menghasilkan siswa yang mampu bersaing dengan sumber daya manusia dari luar negeri.
+                        </p>
+                    </div>
+                </div>
+                <!-- Misi -->
+                <div class="col-lg-7 mb-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="box-item p-5 h-100" style="background-color: var(--bg-light); border-radius: 40px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07); position: relative; z-index: 2; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div class="text-center d-lg-none mb-3">
+                            <i class="ph ph-target" style="font-size: 60px; color: var(--primary);"></i>
+                        </div>
+                        <h4 class="mb-4 d-none d-lg-block" style="color: var(--primary); font-size: 28px; font-weight: 700;">Misi Kami</h4>
+                        <h4 class="mb-4 text-center d-lg-none" style="color: var(--primary); font-size: 28px; font-weight: 700;">Misi Kami</h4>
+                        <ul class="text-start" style="padding-left: 0; list-style: none;">
+                            <li style="display: flex; align-items: flex-start; gap: 15px;" class="mb-4">
+                                <div class="elementor-icon-list-icon mt-1">
+                                    <svg aria-hidden="true" style="width: 24px; fill: var(--primary);" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
+                                </div>
+                                <span class="elementor-icon-list-text" style="color: var(--secondary); line-height: 1.6; text-align: justify; font-size: 16px;">
+                                    Selalu berupaya untuk memperbarui standar pelayanan dan keorganisasian yang dimiliki, guna meningkatkan kualitas lembaga secara keseluruhan.
+                                </span>
+                            </li>
+                            <li style="display: flex; align-items: flex-start; gap: 15px;" class="mb-4">
+                                <div class="elementor-icon-list-icon mt-1">
+                                    <svg aria-hidden="true" style="width: 24px; fill: var(--primary);" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
+                                </div>
+                                <span class="elementor-icon-list-text" style="color: var(--secondary); line-height: 1.6; text-align: justify; font-size: 16px;">
+                                    Meningkatkan standar mutu pengajaran melalui audit kinerja secara berkala, demi menjaga kualitas pembelajaran.
+                                </span>
+                            </li>
+                            <li style="display: flex; align-items: flex-start; gap: 15px;" class="mb-4">
+                                <div class="elementor-icon-list-icon mt-1">
+                                    <svg aria-hidden="true" style="width: 24px; fill: var(--primary);" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
+                                </div>
+                                <span class="elementor-icon-list-text" style="color: var(--secondary); line-height: 1.6; text-align: justify; font-size: 16px;">
+                                    Berkomitmen untuk mencetak Sumber Daya Manusia (SDM) yang siap kerja, terampil, aktif, kreatif, dan mandiri, serta mampu berwirausaha di bidang teknologi informasi dan komunikasi.
+                                </span>
+                            </li>
+                            <li style="display: flex; align-items: flex-start; gap: 15px;" class="mb-0">
+                                <div class="elementor-icon-list-icon mt-1">
+                                    <svg aria-hidden="true" style="width: 24px; fill: var(--primary);" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path></svg>
+                                </div>
+                                <span class="elementor-icon-list-text" style="color: var(--secondary); line-height: 1.6; text-align: justify; font-size: 16px;">
+                                    Membangun jaringan kerja sama yang luas dengan berbagai instansi dan lembaga terkait untuk mendukung pengembangan materi pelatihan yang sesuai dengan kebutuhan industri saat ini.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     {{-- TAMBAHKAN SLIDER INSTANSI YANG TELAH BEKERJASAMA --}}
     <div id="clients" class="marquee-section section">
         <div class="container">
@@ -329,7 +405,6 @@
     </div>
 
 
-    {{-- TAMBHKAN VISI MISI --}}
 
 
 
